@@ -403,6 +403,7 @@
 </section>
 
 <!-- ---------- VIDEOS ---------- -->
+<!-- ---------- VIDEOS ---------- -->
 <section class="page" id="videos">
   <header class="banner">
     <h1>Research &amp; project videos</h1>
@@ -414,7 +415,6 @@
     <p id="videos-empty">Videos will be added here as they become available.</p>
   </div>
 </section>
-
 <!-- ---------- CREDENTIALS ---------- -->
 <section class="page" id="credentials">
   <header class="banner">
@@ -673,9 +673,18 @@
 */
 window.PORTFOLIO_VIDEOS = [
   {
-    type: "mp4",
-    title: "Meherab video",
-    src: "assets/videos/meherab.mp4"
+    "type": "mp4",
+    "title": "Droplet-pair impact: validation against reference [5]",
+    "src": "assets/videos/meherab.MP4",
+    "description": "This video presents my numerical validation work based on Simultaneous impact of droplet pairs on solid surfaces by A. Goswami and Y. Hardalupas (2023), listed as reference [5]. The study serves as the benchmark for comparing droplet-impact behaviour in my simulation.",
+    "reference": "ref-5"
+  },
+  {
+    "type": "mp4",
+    "title": "Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision[4]",
+    "src": "assets/videos/meherab1.mp4",
+   description: "This video presents my numerical validation work based on Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision by A. H. Rafi, M. R. Haque, and D. H. Ahmed (2022), listed as reference [4]. The study serves as a benchmark for examining droplet deformation and collision behaviour in my simulation.",
+reference: "ref-4"
   }
 ];
 </script>
@@ -753,7 +762,7 @@ window.PORTFOLIO_VIDEOS = [
     } else {
       var video = element('video');
       video.controls = true;
-      video.preload = 'none';
+      video.preload = 'metadata';
       video.playsInline = true;
       video.setAttribute('aria-label', entry.title);
       video.src = file;
@@ -768,23 +777,24 @@ window.PORTFOLIO_VIDEOS = [
         track.default = true;
         video.appendChild(track);
       }
-      var fallback = element('p', 'video-message', 'This video is currently unavailable.');
+      var fallback = element('p', 'video-message', 'The video could not load. Please try again later.');
       fallback.hidden = true;
       fallback.setAttribute('role', 'status');
       video.addEventListener('error', function () { fallback.hidden = false; });
       video.addEventListener('loadeddata', function () { fallback.hidden = true; });
       frame.appendChild(video);
       body.appendChild(fallback);
-      var open = element('a', 'doclink', 'Open MP4 video');
-      open.href = file;
-      open.target = '_blank';
-      open.rel = 'noopener';
-      body.appendChild(open);
+      // The native controls play the MP4 inside this section.
     }
 
     body.prepend(heading);
     if (typeof entry.description === 'string' && entry.description.trim()) {
       heading.after(element('p', '', entry.description));
+    }
+    if (typeof entry.reference === 'string' && /^ref-\d+$/.test(entry.reference) && document.getElementById(entry.reference)) {
+      var reference = element('a', 'doclink', 'View reference [' + entry.reference.slice(4) + ']');
+      reference.href = '#' + entry.reference;
+      body.appendChild(reference);
     }
     card.appendChild(frame);
     card.appendChild(body);
