@@ -33,7 +33,7 @@ You do not need to paste it again. All video styles and player code are included
 3. Keep index.html at the repository root, not inside a nested FINAL-PORTFOLIO folder. Upload extracted files, not the ZIP itself.
 4. For your new account, use the repository meherabhossen3085-dotcom.github.io.
 5. If Pages is not already enabled, choose Settings > Pages > Deploy from a branch > main > / (root) > Save.
-6. After deployment, open https://meherabhossen3085-dotcom.github.io/, select Videos, and play the clip.
+6. After deployment, open https://cfdmeherabhossen.github.io/meherabhossen/, select Videos, and play the clip.
 
 This folder has not been published online. Your public email remains meherabhossen3085@gmail.com.
 
