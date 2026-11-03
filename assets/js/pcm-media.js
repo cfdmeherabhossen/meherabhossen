@@ -1,9 +1,14 @@
-/* Fill the two entries when the owner's PCM image/video files are supplied.
+/* Alnakeeb image supplied; add the remaining PCM image/video files when available.
    Alnakeeb: assets/img/sl_opi_1.png and assets/videos/sl_opi_1.mp4
    Al Siyabi: assets/img/sl_opi_2.png and assets/videos/sl_opi_2.mp4
    Keep empty values until the real files exist; no placeholder results are generated. */
 window.PORTFOLIO_PCM_MEDIA = window.PORTFOLIO_PCM_MEDIA || {
-  alnakeeb: { image: '', video: '' },
+  alnakeeb: {
+    image: 'assets/img/sl_opi_1.png',
+    video: '',
+    alt: 'Alnakeeb PCM melting montage at 2.5, 5, 10, 15, 25 and 35 minutes; melt front and flow on the left of each panel, temperature on the right',
+    caption: 'Melt-front evolution at 2.5, 5, 10, 15, 25 and 35 min. Each panel shows melt and flow on the left and temperature on the right. Velocity is in mm/s and temperature in K; liquid-fraction values are labelled in the image.'
+  },
   siyabi: { image: '', video: '' }
 };
 (function () {
@@ -20,7 +25,7 @@ window.PORTFOLIO_PCM_MEDIA = window.PORTFOLIO_PCM_MEDIA || {
       var link = document.createElement('a');
       var image = document.createElement('img');
       link.href = item.image; link.target = '_blank'; link.rel = 'noopener';
-      image.src = item.image; image.alt = 'Solid–liquid PCM liquid-fraction contours: ' + study + ' benchmark';
+      image.src = item.image; image.alt = item.alt || ('Solid–liquid PCM liquid-fraction contours: ' + study + ' benchmark');
       image.loading = 'lazy'; image.decoding = 'async';
       link.appendChild(image); figure.appendChild(link);
       var caption = document.createElement('figcaption');
