@@ -14,3 +14,8 @@ and all report PDFs remain available in their existing locations.
 Droplet impact contour PNGs are unmodified copies of the owner-supplied frames
 0000, 0028, 0056 and 0084 from droplet_impact.0000.png–droplet_impact.0084.png.
 They show water volume fraction and are not labelled as freezing results.
+
+Alnakeeb media update: sl-v.png is the new owner-supplied liquid-fraction
+comparison (Alnakeeb, ANSYS Fluent and OpenFOAM). sl_opi_1.png is an unmodified
+copy of montage_preview_1.png; montage_preview.png has the identical SHA-256
+and is not displayed a second time. The montage retains all times and scales.
