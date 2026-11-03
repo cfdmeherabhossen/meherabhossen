@@ -42,4 +42,4 @@ professional achievement, academic profile URL or employer-owned simulation is i
 
 - Replaced the Alnakeeb validation plot with the supplied Fluent/OpenFOAM comparison and added the supplied six-panel melt-front montage at full width. Identical montage attachments are displayed once.
 
-- Added the supplied Alnakeeb PCM melting animation with playback controls, an authentic video poster and a direct animation link. The original MP4 is preserved.
+- Added a web-optimized copy of the supplied Alnakeeb PCM melting animation with playback controls, a video poster and a direct animation link. Frame count, timing and resolution are retained; the original source MP4 is preserved locally.
