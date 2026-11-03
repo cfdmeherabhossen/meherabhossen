@@ -77,6 +77,15 @@
 .pcm-media__grid figure { margin: 1rem 0 0; min-width: 0; }
 .pcm-media__grid img, .pcm-media__grid video { width: 100%; max-height: 360px; object-fit: contain; background: #101b24; }
 .pcm-media__grid figcaption { font-size: .75rem; line-height: 1.6; color: var(--ink-2); margin-top: .75rem; }
+.droplet-contours { margin-block: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.droplet-contours h3 { font-size: 1.2rem; margin-bottom: 1rem; }
+.contour-gallery { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+.contour-gallery figure { margin: 0; min-width: 0; }
+.contour-gallery a { display: block; }
+.contour-gallery img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: contain; background: #fff; border: 1px solid var(--rule); }
+.contour-gallery figcaption { font-size: .75rem; line-height: 1.6; color: var(--ink-2); margin-top: .6rem; }
+.contour-gallery figcaption a { display: inline; }
+.droplet-contours .contour-note { font-size: .78rem; color: var(--ink-2); }
 @media (max-width: 960px) {
   .rail { top: var(--topbar-height); max-height: calc(100dvh - var(--topbar-height)); }
   .scrim { top: var(--topbar-height); }
@@ -107,6 +116,7 @@
   .topbar { padding: .65rem .85rem; }
   .rail { padding: 1.5rem; }
   .pcm-media__grid { grid-template-columns: minmax(0,1fr); }
+  .contour-gallery { grid-template-columns: minmax(0,1fr); }
   .menu a, .menu summary { min-height: 44px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
