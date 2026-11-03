@@ -120,3 +120,7 @@
   .menu a, .menu summary { min-height: 44px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Keep the complete six-panel Alnakeeb montage readable and uncropped. */
+[data-pcm-study="alnakeeb"] .pcm-media__grid { grid-template-columns: minmax(0,1fr); }
+[data-pcm-study="alnakeeb"] .pcm-media__grid img { display: block; height: auto; max-height: none; }
