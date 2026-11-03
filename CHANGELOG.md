@@ -39,3 +39,5 @@ professional achievement, academic profile URL or employer-owned simulation is i
   represented by generated results.
 
 - Added four supplied droplet-impact contour frames with original colour scales, full-size links and an impact/spreading caption. No physical times or freezing claims were assigned.
+
+- Replaced the Alnakeeb validation plot with the supplied Fluent/OpenFOAM comparison and added the supplied six-panel melt-front montage at full width. Identical montage attachments are displayed once.

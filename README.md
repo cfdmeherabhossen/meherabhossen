@@ -42,10 +42,14 @@ When updating the CV, replace the PDF and regenerate both image previews togethe
 Keep publication statuses explicit and update them only when the status changes.
 See CHANGELOG.md for this update and assets/img/PROJECT-SOURCES.md for figure sources.
 
-## PCM contours and animation in the next edit
+## PCM contours and animation
 
-Two subsections are prepared under the Alnakeeb and Al Siyabi studies.
-Add the real files as:
+The Alnakeeb subsection now displays the supplied melt-front montage; its
+validation plot uses the supplied Fluent/OpenFOAM comparison. The two montage
+attachments were identical, so the montage is displayed once.
+
+The Al Siyabi media and both animations remain available for a later update.
+Media filenames:
 
 - Alnakeeb: assets/img/sl_opi_1.png and assets/videos/sl_opi_1.mp4
 - Al Siyabi: assets/img/sl_opi_2.png and assets/videos/sl_opi_2.mp4
