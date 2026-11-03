@@ -44,11 +44,14 @@ See CHANGELOG.md for this update and assets/img/PROJECT-SOURCES.md for figure so
 
 ## PCM contours and animation
 
-The Alnakeeb subsection now displays the supplied melt-front montage; its
+The Alnakeeb subsection now displays the supplied melt-front montage and animation; its
 validation plot uses the supplied Fluent/OpenFOAM comparison. The two montage
 attachments were identical, so the montage is displayed once.
 
-The Al Siyabi media and both animations remain available for a later update.
+The Alnakeeb animation is the unmodified owner-supplied PCM_melting_10s.mp4,
+with playback controls and a poster frame from the video.
+The caption credits the animation to Md. Meherab Hossen, as confirmed by the owner.
+The Al Siyabi image and animation remain available for a later update.
 Media filenames:
 
 - Alnakeeb: assets/img/sl_opi_1.png and assets/videos/sl_opi_1.mp4
