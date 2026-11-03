@@ -18,9 +18,9 @@ window.PORTFOLIO_PCM_MEDIA = window.PORTFOLIO_PCM_MEDIA || {
   document.querySelectorAll('[data-pcm-study]').forEach(function (section) {
     var key = section.dataset.pcmStudy;
     var item = window.PORTFOLIO_PCM_MEDIA[key];
-    if (!item || (!item.image && !item.video)) return;
+    if (!item || (!item.image && !item.video)) { section.hidden = true; return; }
+    section.hidden = false;
     var grid = section.querySelector('.pcm-media__grid');
-    var pending = section.querySelector('.pcm-media__pending');
     var study = key === 'alnakeeb' ? 'Alnakeeb et al.' : 'Al Siyabi et al.';
     if (item.image) {
       var figure = document.createElement('figure');
@@ -45,6 +45,5 @@ window.PORTFOLIO_PCM_MEDIA = window.PORTFOLIO_PCM_MEDIA || {
       text.textContent = item.videoCaption || ('PCM melting evolution · ' + study + ' validation case');
       videoFigure.appendChild(video); videoFigure.appendChild(text); grid.appendChild(videoFigure);
     }
-    pending.hidden = true;
   });
 })();
