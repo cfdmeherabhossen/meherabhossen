@@ -1,31 +1,55 @@
-# Meherab Hossen — engineering showcase portfolio
+# Meherab Hossen portfolio
 
-A new layout inspired by the photo banner, centred summary, experience timeline and project grid at https://thanhvtran.com/. It uses Meherab's supplied photographs, research, documents and videos. No reference-site photos or personal claims were copied.
+Static portfolio for https://meherabhossen.pages.dev/.
+Updated 3 November 2026. No installation or build step is needed for the website.
 
 ## Preview
-Open index.html in your browser. No installation or build required.
 
-The site starts in light mode on every visit. The theme button enables the deep plum / lavender dark palette. The header retains a circular colour portrait and readable navigation. The software section retains locally bundled brand icons.
+Open index.html, or serve this folder with `python -m http.server 4173` and visit
+http://localhost:4173. A web server gives the closest match to the deployed site.
 
-## Publish to the existing GitHub Pages site
-1. Extract portfolio-showcase.zip.
-2. Upload the CONTENTS of portfolio-showcase (index.html, assets, .nojekyll) into the root of cfdmeherabhossen/meherabhossen, replacing matching files.
-3. Commit changes and wait for the existing GitHub Pages deployment.
+## Source files
 
-Keep a backup of your current repository. Do not upload the ZIP itself or a nested portfolio-showcase folder.
+- Content and video list: index.html
+- Base components: assets/css/style.css
+- Existing theme: assets/css/theme.css
+- Review refinements and mobile layout: assets/css/refinements.css
+- Navigation, drawer, theme and email-copy behaviour: assets/js/main.js
+- Downloadable CV: assets/files/Meherab Hossen CV.pdf
+- CV image previews: assets/resume/cv-1.png and cv-2.png
 
-## Edit
-Content: index.html
-Design: assets/css/theme.css
-Base components: assets/css/style.css
-Behaviour: assets/js/main.js
-Icon attribution: assets/icons/SOURCES.md
+Light mode starts on each visit; visitors can select the plum/lavender dark theme.
+The Gmail button is preserved, alongside a standard email-app link and a copy button.
+Clipboard access requires a supported secure context; a copy-by-selection fallback is shown otherwise.
 
-## Validation
-Referenced local HTML asset paths and fragment targets exist. External and inline JavaScript pass syntax checks. Duplicate IDs were resolved. Browser layout, responsive rendering and media playback still require visual verification; this environment's local preview connection was previously unavailable.
+## Publishing
 
-The live website has not been changed.
+The existing Cloudflare Pages project uses Direct Upload. Publish the complete
+website contents to the existing `meherabhossen` project, with index.html at the
+archive root. No build command or DNS change is required.
 
-Header order: Home, About, Research, Projects, Resume, Contact. More and the theme toggle form a separate utility group on desktop.
+GitHub and Cloudflare are separate deployments in the current setup. Updating
+GitHub alone does not update the Cloudflare site. For future automatic releases,
+configure a CI workflow using an appropriately scoped Cloudflare credential.
 
-Resume navigation now opens a dedicated #resume section, with a centred Download Resume PDF button, an embedded preview of the supplied CV, and an Open PDF link for browsers without embedded PDF support. The CV file itself is unchanged.
+## Content maintenance
+
+The three conference titles on the website match the supplied manuscript titles.
+The conference titles in the CV have intentionally been left for the owner's next
+revision. The CV portfolio URL and its hyperlinks now use the Cloudflare address.
+
+When updating the CV, replace the PDF and regenerate both image previews together.
+Keep publication statuses explicit and update them only when the status changes.
+See CHANGELOG.md for this update and assets/img/PROJECT-SOURCES.md for figure sources.
+
+## PCM contours and animation in the next edit
+
+Two subsections are prepared under the Alnakeeb and Al Siyabi studies.
+Add the real files as:
+
+- Alnakeeb: assets/img/sl_opi_1.png and assets/videos/sl_opi_1.mp4
+- Al Siyabi: assets/img/sl_opi_2.png and assets/videos/sl_opi_2.mp4
+
+Set the matching image/video values in assets/js/pcm-media.js once the files exist.
+JPG image extensions also work when configured. Empty entries display a forthcoming
+media note and load no missing files.
