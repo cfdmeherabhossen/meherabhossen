@@ -124,3 +124,4 @@
 /* Keep the complete six-panel Alnakeeb montage readable and uncropped. */
 [data-pcm-study="alnakeeb"] .pcm-media__grid { grid-template-columns: minmax(0,1fr); }
 [data-pcm-study="alnakeeb"] .pcm-media__grid img { display: block; height: auto; max-height: none; }
+[data-pcm-study="alnakeeb"] .pcm-media__grid video { display: block; height: auto; max-height: none; aspect-ratio: 16/9; }
