@@ -208,7 +208,7 @@
 </a>
 <figcaption>Figure 1. Liquid-fraction validation: ANSYS Fluent and OpenFOAM results compared with Alnakeeb et al. <a href="#ref-1">[1]</a>. Select the plot to inspect it at full size.</figcaption>
 </figure>
-<section aria-labelledby="pcm-contours-alnakeeb-heading" class="pcm-media" data-pcm-study="alnakeeb" id="pcm-contours-alnakeeb"><h3 id="pcm-contours-alnakeeb-heading">Melt-front evolution</h3><p class="pcm-media__pending">Simulation contour images and melting animations will be added in the next update.</p><div class="pcm-media__grid"></div></section></article>
+<section aria-labelledby="pcm-contours-alnakeeb-heading" class="pcm-media" data-pcm-study="alnakeeb" id="pcm-contours-alnakeeb"><h3 id="pcm-contours-alnakeeb-heading">Melt-front evolution</h3><div class="pcm-media__grid"></div></section></article>
 <article class="work" id="research-plaster">
 <p class="work__spec">Building energy · Numerical validation</p>
 <h2>Solid–solid phase change materials in building plaster</h2><p class="work__team">Research advisor: Prof. Dr. Dewan Hasan Ahmed · AUST</p>
@@ -235,7 +235,7 @@
 <!-- Validation picture: reference [4] -->
 <section aria-labelledby="validation-ref4-heading" class="validation-study">
 <h3 id="validation-ref4-heading">Falling-droplet deformation and collision</h3><p class="result-callout"><strong>Reported spread-ratio error: ≈3%.</strong> VOF validation performed in ANSYS Fluent; freezing investigations remain ongoing.</p>
-<p>This figure compares my numerical results with <cite>Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision</cite> by A. H. Rafi, M. R. Haque and D. H. Ahmed (2022) <a href="#ref-4">[4]</a>. The comparison is used to assess the simulation's representation of droplet deformation and collision behaviour.</p>
+<p>The falling-droplet cases of Rafi et al. <a href="#ref-4">[4]</a> were reproduced in ANSYS Fluent to assess droplet deformation and collision behaviour. Figure 3 compares my numerical results with the published benchmark.</p>
 <figure class="film research-figure">
 <a aria-label="Open full-size validation picture for reference 4" class="film__box" href="assets/img/validation-ref4.png" rel="noopener" target="_blank">
 <img alt="Numerical droplet deformation and collision results compared with Rafi et al., reference 4" decoding="async" loading="lazy" src="assets/img/validation-ref4.png"/>
@@ -277,7 +277,7 @@
 </a>
 <figcaption>Figure 5. Liquid-fraction evolution compared with I. Al Siyabi et al. <a href="#ref-7">[7]</a>. Select the plot to inspect it at full size.</figcaption>
 </figure>
-<section aria-labelledby="pcm-contours-siyabi-heading" class="pcm-media" data-pcm-study="siyabi" id="pcm-contours-siyabi"><h3 id="pcm-contours-siyabi-heading">Contours &amp; animation</h3><p class="pcm-media__pending">Simulation contour images and melting animations will be added in the next update.</p><div class="pcm-media__grid"></div></section></article>
+<section aria-labelledby="pcm-contours-siyabi-heading" class="pcm-media" data-pcm-study="siyabi" hidden id="pcm-contours-siyabi"><h3 id="pcm-contours-siyabi-heading">Contours &amp; animation</h3><div class="pcm-media__grid"></div></section></article>
 <article class="work" id="research-composites">
 <p class="work__spec">Undergraduate thesis · Experimental research · Completed July 2026</p>
 <h2>Water-lily natural fibre and epoxy composites</h2>
@@ -340,11 +340,12 @@
 </header>
 <div class="wrap">
 <p class="lead">Simulation animations, laboratory work and project demonstrations.</p>
-<div class="video-grid" id="video-gallery"></div>
-<p id="videos-empty">Videos will be added here as they become available.</p>
+<div class="video-grid" id="video-gallery">
+<article class="video-card"><div class="video-frame"><video controls playsinline preload="none" src="assets/videos/meherab.MP4" poster="assets/img/droplet-pair-poster.jpg" aria-label="Droplet-pair impact: validation against reference [5]"><a href="assets/videos/meherab.MP4">Open the simulation video</a></video></div><div class="video-card__body"><h2>Droplet-pair impact: validation against reference [5]</h2><p>This video presents my numerical validation work based on Simultaneous impact of droplet pairs on solid surfaces by A. Goswami and Y. Hardalupas (2023), listed as reference [5]. The study serves as the benchmark for comparing droplet-impact behaviour in my simulation.</p><a class="doclink" href="#ref-5">View reference [5]</a></div></article>
+<article class="video-card"><div class="video-frame"><video controls playsinline preload="none" src="assets/videos/meherab1.mp4" poster="assets/img/falling-droplet-poster.jpg" aria-label="Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision [4]"><a href="assets/videos/meherab1.mp4">Open the simulation video</a></video></div><div class="video-card__body"><h2>Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision [4]</h2><p>This video presents my numerical validation work based on Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision by A. H. Rafi, M. R. Haque, and D. H. Ahmed (2022), listed as reference [4]. The study serves as a benchmark for examining droplet deformation and collision behaviour in my simulation.</p><a class="doclink" href="#ref-4">View reference [4]</a></div></article>
+</div>
 </div>
 </section>
-<!-- ---------- CREDENTIALS ---------- -->
 <!-- ---------- SKILLS ---------- -->
 <section class="page" id="skills">
 <header class="banner">
@@ -357,7 +358,7 @@
 <div class="skills">
 <div class="skill">
 <h3>CAE</h3>
-<ul aria-label="Software tools" class="software-icons"><li class="software-tile" title="ANSYS Fluent"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/ansys.png" width="28"/></span><span>ANSYS Fluent</span></li><li class="software-tile" title="OpenFOAM"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/openfoam.png" width="28"/></span><span>OpenFOAM</span></li><li class="software-tile" title="ANSYS Rocky"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/ansys.png" width="28"/></span><span>ANSYS Rocky</span></li><li class="software-tile" title="STAR-CCM+"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/siemens.png" width="28"/></span><span>STAR-CCM+</span></li><li class="software-tile" title="ANSYS FEA"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/ansys.png" width="28"/></span><span>ANSYS FEA</span></li><li class="software-tile"><span aria-hidden="true" class="software-tile__icon software-tile__monogram">CM</span><span>COMSOL Multiphysics</span></li></ul>
+<ul aria-label="Software tools" class="software-icons"><li class="software-tile" title="ANSYS Fluent"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/ansys.png" width="28"/></span><span>ANSYS Fluent</span></li><li class="software-tile" title="OpenFOAM"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/openfoam.png" width="28"/></span><span>OpenFOAM</span></li><li class="software-tile" title="ANSYS Rocky"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/ansys.png" width="28"/></span><span>ANSYS Rocky</span></li><li class="software-tile" title="STAR-CCM+"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/siemens.png" width="28"/></span><span>STAR-CCM+</span></li><li class="software-tile" title="ANSYS FEA"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/ansys.png" width="28"/></span><span>ANSYS FEA</span></li><li class="software-tile" title="COMSOL Multiphysics"><span>COMSOL Multiphysics</span></li></ul>
 <ul class="ticks">
 <li>CFD and heat transfer analysis of internal flows such as heat exchangers and heat sinks.</li>
 <li>Melting and solidification analysis of phase change materials.</li>
@@ -365,7 +366,7 @@
 </div>
 <div class="skill">
 <h3>Programming</h3>
-<ul aria-label="Software tools" class="software-icons"><li class="software-tile" title="MATLAB"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/mathworks.svg" width="28"/></span><span>MATLAB</span></li><li class="software-tile" title="C"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/c.svg" width="28"/></span><span>C</span></li><li class="software-tile" title="Python"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/python.svg" width="28"/></span><span>Python</span></li><li class="software-tile"><span aria-hidden="true" class="software-tile__icon software-tile__monogram">C++</span><span>C++</span></li></ul>
+<ul aria-label="Software tools" class="software-icons"><li class="software-tile" title="MATLAB"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/mathworks.svg" width="28"/></span><span>MATLAB</span></li><li class="software-tile" title="C"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/c.svg" width="28"/></span><span>C</span></li><li class="software-tile" title="Python"><span class="software-tile__icon"><img alt="" height="28" loading="lazy" src="assets/icons/python.svg" width="28"/></span><span>Python</span></li><li class="software-tile" title="C++"><span>C++</span></li></ul>
 <ul class="ticks"><li>C, C++ and Python, as listed in my CV, alongside MATLAB coursework.</li><li>Developing Python skills for scientific computing and machine-learning applications.</li></ul>
 </div>
 <div class="skill">
@@ -487,7 +488,7 @@
 <ul class="contact">
 <li>
 <span class="contact__k">Personal Email</span>
-<a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=meherabhossen3085%40gmail.com" rel="noopener" target="_blank">meherabhossen3085@gmail.com</a>
+<a href="mailto:meherabhossen3085@gmail.com">meherabhossen3085@gmail.com</a>
 </li>
 <li>
 <span class="contact__k">Current role</span>
@@ -495,7 +496,7 @@
 </li>
 <li>
 <span class="contact__k">Work Email</span>
-<a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=Meherab.Hossen%40MACPROTECENG.com" rel="noopener" target="_blank">Meherab.Hossen@MACPROTECENG.com</a>
+<a href="mailto:Meherab.Hossen@MACPROTECENG.com">Meherab.Hossen@MACPROTECENG.com</a>
 </li>
 <li>
 <span class="contact__k">ResearchGate</span>
@@ -506,7 +507,7 @@
 <span>Dhaka, Bangladesh</span>
 </li>
 <li><span class="contact__k">GitHub</span><a href="https://github.com/cfdmeherabhossen" rel="noopener" target="_blank">cfdmeherabhossen</a></li></ul>
-<div class="contact-actions"><a class="btn btn--solid" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=meherabhossen3085%40gmail.com&amp;su=Enquiry%20from%20your%20portfolio" rel="noopener" target="_blank">Write in Gmail ↗</a><a class="btn" href="mailto:meherabhossen3085@gmail.com?subject=Enquiry%20from%20your%20portfolio">Use my email app</a><button class="btn" data-email="meherabhossen3085@gmail.com" id="copy-email" type="button">Copy email address</button></div><p class="contact-help">Choose Gmail, your configured email app, or copy the address into another service.</p><p aria-live="polite" class="copy-status" id="copy-email-status" role="status"></p></div>
+<div class="contact-actions"><a class="btn btn--solid" href="mailto:meherabhossen3085@gmail.com?subject=Enquiry%20from%20your%20portfolio">Email me</a><button class="btn" data-email="meherabhossen3085@gmail.com" id="copy-email" type="button">Copy email address</button></div><p class="contact-help">Open your configured email app, or copy the address into your preferred service.</p><p aria-live="polite" class="copy-status" id="copy-email-status" role="status"></p></div>
 </section>
 <section aria-labelledby="resume-heading" class="page" id="resume">
 <header class="resume-header"><h1 id="resume-heading">Resume</h1><p>Md. Meherab Hossen · Mechanical Engineering &amp; CFD</p><a class="resume-download" download="" href="assets/files/Meherab Hossen CV.pdf">Download resume PDF <span aria-hidden="true">↓</span></a><a class="resume-open" href="assets/files/Meherab Hossen CV.pdf" rel="noopener" target="_blank">Open PDF in a new tab ↗</a></header>
@@ -546,7 +547,6 @@ window.PORTFOLIO_VIDEOS = [
   'use strict';
 
   var gallery = document.getElementById('video-gallery');
-  var empty = document.getElementById('videos-empty');
   var entries = Array.isArray(window.PORTFOLIO_VIDEOS) ? window.PORTFOLIO_VIDEOS : [];
   if (!gallery) return;
 
@@ -567,6 +567,7 @@ window.PORTFOLIO_VIDEOS = [
     return node;
   }
 
+  if (entries.length) gallery.replaceChildren();
   entries.forEach(function (entry) {
     if (!entry || typeof entry.title !== 'string' || !entry.title.trim()) return;
     var youtube = entry.type === 'youtube' && /^[A-Za-z0-9_-]{11}$/.test(entry.id || '');
@@ -655,7 +656,6 @@ window.PORTFOLIO_VIDEOS = [
   });
 
   var hasVideos = gallery.childElementCount > 0;
-  empty.hidden = hasVideos;
   document.querySelectorAll('[data-video-nav]').forEach(function (item) { item.hidden = !hasVideos; });
 
   // Pause local video playback when the visitor changes portfolio sections.

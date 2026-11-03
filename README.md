@@ -1,7 +1,7 @@
 # Meherab Hossen portfolio
 
 Static portfolio for https://meherabhossen.pages.dev/.
-Updated 3 November 2026. No installation or build step is needed for the website.
+Updated 4 November 2026. No installation or build step is needed for the website.
 
 ## Preview
 
@@ -19,7 +19,7 @@ http://localhost:4173. A web server gives the closest match to the deployed site
 - CV image previews: assets/resume/cv-1.png and cv-2.png
 
 Light mode starts on each visit; visitors can select the plum/lavender dark theme.
-The Gmail button is preserved, alongside a standard email-app link and a copy button.
+Personal and work email links use mailto:, with a separate copy-address button.
 Clipboard access requires a supported secure context; a copy-by-selection fallback is shown otherwise.
 
 ## Publishing
@@ -52,12 +52,14 @@ The Alnakeeb animation is a web-optimized copy of the owner-supplied
 PCM_melting_10s.mp4, with the same frames, timing and 1920×1080 resolution,
 playback controls and a poster frame from the supplied video.
 The caption credits the animation to Md. Meherab Hossen, as confirmed by the owner.
-The Al Siyabi image and animation remain available for a later update.
+The Al Siyabi media subsection stays hidden until its real media files are configured.
 Media filenames:
 
 - Alnakeeb: assets/img/sl_opi_1.png and assets/videos/sl_opi_1.mp4
 - Al Siyabi: assets/img/sl_opi_2.png and assets/videos/sl_opi_2.mp4
 
 Set the matching image/video values in assets/js/pcm-media.js once the files exist.
-JPG image extensions also work when configured. Empty entries display a forthcoming
-media note and load no missing files.
+JPG image extensions also work when configured. Empty entries hide their media
+subsection and load no missing files. The two droplet-video cards are also present
+in index.html so HTML readers can discover them without executing JavaScript.
+Keep those initial cards aligned with PORTFOLIO_VIDEOS when changing the video list.

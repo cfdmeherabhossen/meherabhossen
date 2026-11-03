@@ -43,3 +43,13 @@ professional achievement, academic profile URL or employer-owned simulation is i
 - Replaced the Alnakeeb validation plot with the supplied Fluent/OpenFOAM comparison and added the supplied six-panel melt-front montage at full width. Identical montage attachments are displayed once.
 
 - Added a web-optimized copy of the supplied Alnakeeb PCM melting animation with playback controls, a video poster and a direct animation link. Frame count, timing and resolution are retained; the original source MP4 is preserved locally.
+
+## Review follow-up — 4 November 2026
+
+- Verified that Cloudflare production, GitHub Pages and main/index.html served identical HTML before this update.
+- Retained the Cloudflare canonical/social address and the matching CV portfolio link.
+- Removed forthcoming-media notices; the empty Al Siyabi media subsection stays hidden until real media is supplied.
+- Added initial HTML cards for the two supplied droplet videos so readers can find them without JavaScript.
+- Changed personal/work email links and the main email action to mailto:, retaining copy-address support.
+- Removed decorative COMSOL/C++ letter badges to avoid duplicated labels in readers.
+- Reworded the Rafi benchmark introduction with a concise author-based citation.
