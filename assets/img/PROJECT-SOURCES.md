@@ -19,3 +19,9 @@ Alnakeeb media update: sl-v.png is the new owner-supplied liquid-fraction
 comparison (Alnakeeb, ANSYS Fluent and OpenFOAM). sl_opi_1.png is an unmodified
 copy of montage_preview_1.png; montage_preview.png has the identical SHA-256
 and is not displayed a second time. The montage retains all times and scales.
+
+Alnakeeb animation: assets/videos/sl_opi_1.mp4 is the unmodified owner-supplied
+PCM_melting_10s.mp4. alnakeeb-melting-poster.jpg is the frame at 3 seconds from
+that animation, extracted without cropping or changing the simulation content.
+The owner confirmed that he created the animation; its website caption credits
+Md. Meherab Hossen. The supplied MP4 and its embedded text are unchanged.
