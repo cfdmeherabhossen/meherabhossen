@@ -34,9 +34,9 @@ configure a CI workflow using an appropriately scoped Cloudflare credential.
 
 ## Content maintenance
 
-The three conference titles on the website match the supplied manuscript titles.
-The conference titles in the CV have intentionally been left for the owner's next
-revision. The CV portfolio URL and its hyperlinks now use the Cloudflare address.
+The conference titles and author lists in the CV and on the website match the
+supplied manuscripts. The CV portfolio URL and its hyperlinks use the Cloudflare
+address. The university name is written in full throughout the website and CV.
 
 When updating the CV, replace the PDF and regenerate both image previews together.
 Keep publication statuses explicit and update them only when the status changes.

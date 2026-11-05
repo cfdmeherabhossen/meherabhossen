@@ -1,3 +1,7 @@
+## University name update
+
+- Used Ahsanullah University of Science and Technology in the website text and displayed CV.
+
 ## 5 November 2026 - CV and research evidence
 
 - Replaced the CV and both previews with the two-page research version, without unfinished fields.
