@@ -1,3 +1,12 @@
+## 5 November 2026 - CV and research evidence
+
+- Replaced the CV and both previews with the two-page research version, without unfinished fields.
+- Added the supplied journal and conference author lists and reconciled conference titles with the manuscripts.
+- Distinguished accepted abstracts, submitted full papers, and the journal manuscript under review.
+- Replaced unscoped thermal-validation percentages with documented response quantities and a mesh-check description.
+- Added the research-interest and contribution descriptions and a public research-evidence index.
+- Kept the manuscript DOCX files, private review notes, and numerical case inputs out of the public deployment.
+
 # Portfolio update 3 November 2026
 
 - Preserved the campus-photo template, circular portrait, software icons and light-first theme.

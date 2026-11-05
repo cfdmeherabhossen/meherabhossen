@@ -1,7 +1,7 @@
 # Meherab Hossen portfolio
 
 Static portfolio for https://meherabhossen.pages.dev/.
-Updated 4 November 2026. No installation or build step is needed for the website.
+Updated 5 November 2026. No installation or build step is needed for the website.
 
 ## Preview
 
@@ -63,3 +63,8 @@ JPG image extensions also work when configured. Empty entries hide their media
 subsection and load no missing files. The two droplet-video cards are also present
 in index.html so HTML readers can discover them without executing JavaScript.
 Keep those initial cards aligned with PORTFOLIO_VIDEOS when changing the video list.
+
+
+## Research evidence
+
+See [RESEARCH_EVIDENCE.md](RESEARCH_EVIDENCE.md) for the validation figures, compared quantities, benchmark references, public-material inventory, and manuscript author lists. The repository currently hosts the portfolio source and public results; it does not contain a reproducible CFD-case release.
