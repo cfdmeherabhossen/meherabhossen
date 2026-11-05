@@ -1,3 +1,11 @@
+# CV refinements - 5 November 2026
+
+- Published a general research CV focused on multiphase flow and heat transfer.
+- Moved the evidence link beside completed research and clarified profile grammar and validation tense.
+- Simplified conference review status, emphasized the author name, and shortened project and award entries.
+- Preserved all 18 hyperlink targets and the two-page layout; refreshed both previews.
+- Added the editable LaTeX source beside the public PDF.
+
 ## University name update
 
 - Used Ahsanullah University of Science and Technology in the website text and displayed CV.

@@ -21,19 +21,19 @@ This index connects the CV to public validation figures, methods, and videos. Th
 
 ## Manuscripts and submission status
 
-Statuses below follow information supplied by the author in November 2026. Accepted abstracts are distinguished from full-paper acceptance. Proceedings details and DOIs are not listed for these submitted manuscripts.
+Statuses below follow information supplied by the author in November 2026. Conference abstracts are accepted and full papers are under review. Proceedings details and DOIs are not listed for these manuscripts.
 
 **Journal manuscript**
 
-Md. Meherab Hossen, Md. Asif Farhan, Tabasom Rahman, Hasibuzzaman Mahmud, Dewan Hasan Ahmed. "Numerical Investigation of Enhanced Thermal Energy Storage in Solid-Solid Phase Change Materials with New Fin Architecture for Shell-and-Tube Heat Exchanger Applications." *Journal of Energy Storage*. Submitted October 2026; under review.
+**Md. Meherab Hossen**, Md. Asif Farhan, Tabasom Rahman, Hasibuzzaman Mahmud, Dewan Hasan Ahmed. "Numerical Investigation of Enhanced Thermal Energy Storage in Solid-Solid Phase Change Materials with New Fin Architecture for Shell-and-Tube Heat Exchanger Applications." *Journal of Energy Storage*. Submitted October 2026; under review.
 
 **Conference manuscripts**
 
-1. Md. Meherab Hossen, Md. Asif Farhan, Radia Siddika, Nowroze Farhan Ifraj. "Numerical Investigation of the Coupled Effect of Impact Angle and Ambient Rotor Downwash on Rain-Droplet Impact Regimes over UAV Surface." 10th BSME International Conference on Thermo-Fluid Engineering. First author; abstract accepted; full paper submitted September 2026. No final full-paper acceptance has been confirmed.
+1. **Md. Meherab Hossen**, Md. Asif Farhan, Radia Siddika, Nowroze Farhan Ifraj. "Numerical Investigation of the Coupled Effect of Impact Angle and Ambient Rotor Downwash on Rain-Droplet Impact Regimes over UAV Surface." 10th BSME International Conference on Thermo-Fluid Engineering. First author; abstract accepted; full paper under review (submitted September 2026).
 
-2. Md. Asif Farhan, Md. Meherab Hossen, Radia Siddika, Nowroze Farhan Ifraj. "Effect of Pre-Impact Thermal History on the Impact and Freezing of Free-Falling Supercooled Droplets on UAV-Relevant Surfaces." 10th BSME International Conference on Thermo-Fluid Engineering. Second author; abstract accepted; full paper submitted September 2026. No final full-paper acceptance has been confirmed.
+2. Md. Asif Farhan, **Md. Meherab Hossen**, Radia Siddika, Nowroze Farhan Ifraj. "Effect of Pre-Impact Thermal History on the Impact and Freezing of Free-Falling Supercooled Droplets on UAV-Relevant Surfaces." 10th BSME International Conference on Thermo-Fluid Engineering. Second author; abstract accepted; full paper under review (submitted September 2026).
 
-3. Tabasom Rahman, Md. Asif Farhan, Md. Meherab Hossen, Fahmid Zaman Adnan, Ibrarur Rahman Choudhury, Dewan Hasan Ahmed. "Thermal Energy Storage Enhancement Using Alphabet-Inspired Fins in a Shell-and-Tube Heat Exchanger with Solid-Liquid PCM." 10th BSME International Conference on Thermo-Fluid Engineering. Third author; abstract accepted; full paper submitted September 2026. No final full-paper acceptance has been confirmed.
+3. Tabasom Rahman, Md. Asif Farhan, **Md. Meherab Hossen**, Fahmid Zaman Adnan, Ibrarur Rahman Choudhury, Dewan Hasan Ahmed. "Thermal Energy Storage Enhancement Using Alphabet-Inspired Fins in a Shell-and-Tube Heat Exchanger with Solid-Liquid PCM." 10th BSME International Conference on Thermo-Fluid Engineering. Third author; abstract accepted; full paper under review (submitted September 2026).
 
 ## Extending the public record
 

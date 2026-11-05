@@ -16,6 +16,7 @@ http://localhost:4173. A web server gives the closest match to the deployed site
 - Review refinements and mobile layout: assets/css/refinements.css
 - Navigation, drawer, theme and email-copy behaviour: assets/js/main.js
 - Downloadable CV: assets/files/Meherab Hossen CV.pdf
+- Editable CV source: [Meherab_Hossen_CV.tex](assets/files/Meherab_Hossen_CV.tex)
 - CV image previews: assets/resume/cv-1.png and cv-2.png
 
 Light mode starts on each visit; visitors can select the plum/lavender dark theme.
