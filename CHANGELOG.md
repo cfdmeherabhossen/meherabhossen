@@ -1,3 +1,7 @@
+# Public CV download update - 5 November 2026
+
+- Removed the LaTeX-source download link and source file from the public site and current repository.
+
 # CV refinements - 5 November 2026
 
 - Published a general research CV focused on multiphase flow and heat transfer.
