@@ -27,3 +27,8 @@ that animation, extracted without cropping or changing the simulation content.
 The owner confirmed that he created the animation; its website caption credits
 Md. Meherab Hossen. The original source MP4 is preserved on the owner's computer;
 the website copy retains the supplied content and embedded text.
+
+
+## particle-settling-pac05.png
+
+Plot generated from the owner-supplied 0.5% PAC comparison data. Present-study values: Md. Meherab Hossen, ANSYS Fluent (confirmed by the owner). Reference CFD and experimental comparison values: Awad et al., *Journal of Petroleum Science and Engineering* 199 (2021), 108326, Figure 6, https://doi.org/10.1016/j.petrol.2020.108326. The reference article is published under CC BY. The plot covers Cross and Carreau models at particle diameters 2, 3, 4 and 5 mm.
