@@ -78,7 +78,7 @@
 <p>CFD Simulation Engineer · MACPROTEC, USA</p>
 <h1>Md. Meherab Hossen</h1>
 <span>Multiphase flow. Phase-change heat transfer. Models tested against published benchmarks.</span>
-<div class="hero-actions"><a class="btn btn--solid" href="#selected-work">Explore my work</a><a class="btn" download="" href="assets/files/Meherab Hossen CV.pdf?v=c45f4d7de84d">Download CV</a></div></div></div>
+<div class="hero-actions"><a class="btn btn--solid" href="#selected-work">Explore my work</a><a class="btn" download="" href="assets/files/Meherab Hossen CV.pdf?v=e6b3e81033ef">Download CV</a></div></div></div>
 <div class="intro-section">
 <p class="eyebrow">MECHANICAL ENGINEERING · COMPUTATIONAL MODELLING</p>
 <h2>Simulation grounded in validation.</h2>
@@ -192,8 +192,8 @@
 <div aria-hidden="true" class="scale"></div>
 </header>
 <div class="wrap">
-<p class="lead">Numerical studies in thermal energy storage, building energy and multiphase heat transfer using ANSYS Fluent and OpenFOAM, alongside experimental work on natural-fibre composites. The numerical studies include model validation against published research.</p>
-<article class="work" id="research-evidence"><p class="work__spec">Methods, contributions and public evidence</p><h2>Research evidence and contributions</h2><p><strong>Research interests:</strong> Multiphase flow, droplet impact and heat transfer, phase-change thermal energy storage, and benchmark-based numerical model validation.</p><ul class="ticks"><li><strong>Model development:</strong> Phase-change models and fin-geometry studies in ANSYS Fluent, including a temperature-dependent apparent heat-capacity treatment.</li><li><strong>Solver configuration:</strong> Fluent and OpenFOAM VOF benchmark setups and industrial discrete-phase particle-transport simulations.</li><li><strong>Validation:</strong> Comparison of liquid-fraction, temperature and droplet-spreading histories with published benchmark studies linked below.</li><li><strong>Analysis and interpretation:</strong> Comparison of charging times across fin configurations and examination of Weber-number effects on droplet spreading and deformation.</li></ul><p><a href="https://github.com/cfdmeherabhossen/meherabhossen/blob/main/RESEARCH_EVIDENCE.md" target="_blank" rel="noopener">Research evidence index ↗</a> · <a href="https://github.com/cfdmeherabhossen/meherabhossen" target="_blank" rel="noopener">Portfolio source on GitHub ↗</a></p><p>Public materials currently include the portfolio source, validation figures and simulation videos. Runnable numerical cases are not yet deposited.</p></article>
+<p class="lead">Numerical studies in thermal energy storage, building energy, multiphase heat transfer and particle settling using ANSYS Fluent and OpenFOAM, alongside experimental work on natural-fibre composites. The numerical studies include model validation against published research.</p>
+<article class="work" id="research-evidence"><p class="work__spec">Methods, contributions and public evidence</p><h2>Research evidence and contributions</h2><p><strong>Research interests:</strong> Multiphase flow, droplet impact and heat transfer, phase-change thermal energy storage, and benchmark-based numerical model validation.</p><ul class="ticks"><li><strong>Model development:</strong> Phase-change models and fin-geometry studies in ANSYS Fluent, including a temperature-dependent apparent heat-capacity treatment.</li><li><strong>Solver configuration:</strong> Fluent and OpenFOAM VOF benchmark setups and industrial discrete-phase particle-transport simulations.</li><li><strong>Validation:</strong> Comparison of liquid-fraction, temperature, droplet-spreading and particle-settling results with published benchmark studies linked below.</li><li><strong>Analysis and interpretation:</strong> Comparison of charging times across fin configurations and examination of Weber-number effects on droplet spreading and deformation.</li></ul><p><a href="https://github.com/cfdmeherabhossen/meherabhossen/blob/main/RESEARCH_EVIDENCE.md" target="_blank" rel="noopener">Research evidence index ↗</a> · <a href="https://github.com/cfdmeherabhossen/meherabhossen" target="_blank" rel="noopener">Portfolio source on GitHub ↗</a></p><p>Public materials currently include the portfolio source, validation figures and simulation videos. Runnable numerical cases are not yet deposited.</p><p><a class="doclink" href="#research-particle-settling">Particle settling in 0.5% PAC: Fluent validation →</a></p></article>
 <article class="work" id="research-pcm">
 <p class="work__spec">Thermal energy storage · Numerical validation</p>
 <h2>Modelling solid–liquid phase change for thermal energy storage</h2>
@@ -279,6 +279,19 @@
 <figcaption>Figure 5. Liquid-fraction evolution compared with I. Al Siyabi et al. <a href="#ref-7">[7]</a>. Select the plot to inspect it at full size.</figcaption>
 </figure>
 <section aria-labelledby="pcm-contours-siyabi-heading" class="pcm-media" data-pcm-study="siyabi" hidden id="pcm-contours-siyabi"><h3 id="pcm-contours-siyabi-heading">Contours &amp; animation</h3><div class="pcm-media__grid"></div></section></article>
+<article class="work" id="research-particle-settling">
+<p class="work__spec">Non-Newtonian flow · Particle settling · ANSYS Fluent &amp; OpenFOAM</p>
+<h2>Particle settling in non-Newtonian drilling fluids</h2>
+<p>I investigated particle settling in a shear-thinning drilling fluid using ANSYS Fluent and OpenFOAM. To validate the simulations, I reproduced the 0.5% polyanionic cellulose (PAC) case from Figure 6 of Awad et al. (2021) <a href="#ref-8">[8]</a>. I compared the predicted settling velocities of 2–5 mm particles using the Cross and Carreau models with the published numerical and experimental data. This work examined how particle size and the choice of rheology model affect settling predictions.</p>
+<p class="result-callout"><strong>ANSYS Fluent validation:</strong> maximum absolute relative deviation of <strong>4.56% for Cross</strong> and <strong>10.26% for Carreau</strong>, relative to the corresponding published CFD predictions.</p>
+<p class="evidence-note">Each maximum is calculated over four particle diameters (2, 3, 4 and 5 mm) in 0.5% PAC fluid, using |v<sub>Fluent</sub> − v<sub>reference</sub>| / |v<sub>reference</sub>| × 100. The reference values are the corresponding Cross or Carreau predictions recorded from Figure 6.</p>
+<figure class="film research-figure">
+<a aria-label="Open full-size particle-settling validation plot" class="film__box" href="assets/img/particle-settling-pac05.png" rel="noopener" target="_blank">
+<img alt="Settling velocity versus particle diameter for 0.5% PAC: present ANSYS Fluent Cross and Carreau predictions compared with published CFD and experimental data" decoding="async" loading="lazy" src="assets/img/particle-settling-pac05.png" width="1892" height="1254"/>
+</a>
+<figcaption>Figure 6. ANSYS Fluent validation for particle settling in 0.5% PAC drilling fluid. Present-study Cross and Carreau results are compared with the numerical predictions and experimental data reported by Awad et al. <a href="#ref-8">[8]</a>. Lines connect the four sampled particle sizes. Select the plot to inspect it at full size.</figcaption>
+</figure>
+</article>
 <article class="work" id="research-composites">
 <p class="work__spec">Undergraduate thesis · Experimental research · Completed July 2026</p>
 <h2>Water-lily natural fibre and epoxy composites</h2>
@@ -329,6 +342,11 @@
 <p class="pub__title">An experimental and numerical study on the effect of inclination angle of phase change materials thermal energy storage system</p>
 <p class="pub__meta">I. Al Siyabi, S. Khanna, T. Mallick, S. Sundaram · Journal of Energy Storage 23 (2019), 57–68.</p>
 <a class="doclink" href="https://doi.org/10.1016/j.est.2019.03.010" rel="noopener" target="_blank">View on publisher site</a>
+</li>
+<li id="ref-8">
+<p class="pub__title">CFD modeling of particle settling in drilling fluids: Impact of fluid rheology and particle characteristics</p>
+<p class="pub__meta">A. M. Awad, I. A. Hussein, M. S. Nasser, H. Karami, R. Ahmed · Journal of Petroleum Science and Engineering 199 (2021), 108326.</p>
+<a class="doclink" href="https://doi.org/10.1016/j.petrol.2020.108326" rel="noopener" target="_blank">View on publisher site</a>
 </li>
 </ol>
 </div>
@@ -503,8 +521,8 @@
 <div class="contact-actions"><a class="btn btn--solid" href="mailto:meherabhossen3085@gmail.com?subject=Enquiry%20from%20your%20portfolio">Email me</a><button class="btn" data-email="meherabhossen3085@gmail.com" id="copy-email" type="button">Copy email address</button></div><p class="contact-help">Open your configured email app, or copy the address into your preferred service.</p><p aria-live="polite" class="copy-status" id="copy-email-status" role="status"></p></div>
 </section>
 <section aria-labelledby="resume-heading" class="page" id="resume">
-<header class="resume-header"><h1 id="resume-heading">Resume</h1><p>Md. Meherab Hossen · Mechanical Engineering &amp; CFD</p><a class="resume-download" download="" href="assets/files/Meherab Hossen CV.pdf?v=c45f4d7de84d">Download resume PDF <span aria-hidden="true">↓</span></a><a class="resume-open" href="assets/files/Meherab Hossen CV.pdf?v=c45f4d7de84d" rel="noopener" target="_blank">Open PDF in a new tab ↗</a></header>
-<div aria-label="Resume preview" class="resume-preview resume-preview--images"><figure><img alt="Resume page 1: use the PDF link above for selectable text" height="1462" src="assets/resume/cv-1.png?v=c45f4d7de84d" width="1034"/><figcaption>Resume · Page 1 of 2</figcaption></figure><figure><img alt="Resume page 2: use the PDF link above for selectable text" height="1462" loading="lazy" src="assets/resume/cv-2.png?v=c45f4d7de84d" width="1034"/><figcaption>Resume · Page 2 of 2</figcaption></figure></div>
+<header class="resume-header"><h1 id="resume-heading">Resume</h1><p>Md. Meherab Hossen · Mechanical Engineering &amp; CFD</p><a class="resume-download" download="" href="assets/files/Meherab Hossen CV.pdf?v=e6b3e81033ef">Download resume PDF <span aria-hidden="true">↓</span></a><a class="resume-open" href="assets/files/Meherab Hossen CV.pdf?v=e6b3e81033ef" rel="noopener" target="_blank">Open PDF in a new tab ↗</a></header>
+<div aria-label="Resume preview" class="resume-preview resume-preview--images"><figure><img alt="Resume page 1: use the PDF link above for selectable text" height="1462" src="assets/resume/cv-1.png?v=e6b3e81033ef" width="1034"/><figcaption>Resume · Page 1 of 2</figcaption></figure><figure><img alt="Resume page 2: use the PDF link above for selectable text" height="1462" loading="lazy" src="assets/resume/cv-2.png?v=e6b3e81033ef" width="1034"/><figcaption>Resume · Page 2 of 2</figcaption></figure></div>
 </section>
 <footer class="foot">
 <p>© <span class="year">2026</span> Md. Meherab Hossen. All rights reserved.</p>

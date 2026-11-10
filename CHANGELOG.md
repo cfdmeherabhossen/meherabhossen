@@ -1,3 +1,10 @@
+# Particle-settling validation - 10 November 2026
+
+- Added the 0.5% PAC Cross/Carreau benchmark to the research page and the two-page general CV.
+- Added a validation plot from the supplied comparison data and the Awad et al. reference.
+- Labeled 4.56% (Cross) and 10.26% (Carreau) as maximum absolute relative deviations of Fluent results from the corresponding published CFD values over four 2-5 mm particle sizes.
+- Refreshed both CV previews and preserved the existing PDF download and private LaTeX source arrangement.
+
 # Public CV download update - 5 November 2026
 
 - Removed the LaTeX-source download link and source file from the public site and current repository.

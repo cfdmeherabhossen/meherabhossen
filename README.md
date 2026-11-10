@@ -1,7 +1,7 @@
 # Meherab Hossen portfolio
 
 Static portfolio for https://meherabhossen.pages.dev/.
-Updated 5 November 2026. No installation or build step is needed for the website.
+Updated 10 November 2026. No installation or build step is needed for the website.
 
 ## Preview
 
@@ -68,3 +68,8 @@ Keep those initial cards aligned with PORTFOLIO_VIDEOS when changing the video l
 ## Research evidence
 
 See [RESEARCH_EVIDENCE.md](RESEARCH_EVIDENCE.md) for the validation figures, compared quantities, benchmark references, public-material inventory, and manuscript author lists. The repository currently hosts the portfolio source and public results; it does not contain a reproducible CFD-case release.
+
+
+## Particle-settling validation
+
+The research page includes the 0.5% PAC Cross/Carreau benchmark against Awad et al. (2021). The new plot uses the owner-supplied comparison data. The displayed maximum relative deviations refer to ANSYS Fluent versus the corresponding published CFD model values over 2-5 mm particles. See RESEARCH_EVIDENCE.md for the scope and error definition.

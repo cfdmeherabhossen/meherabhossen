@@ -19,6 +19,14 @@ This index connects the CV to public validation figures, methods, and videos. Th
 - **Videos:** [Simulation videos](https://meherabhossen.pages.dev/#videos).
 - The droplet-pair comparison above is a different benchmark from the single-droplet validation in the rain-impact conference manuscript. Their error values should not be interchanged.
 
+## Particle settling in non-Newtonian drilling fluids
+
+- **Scope:** The 0.5% PAC case in Figure 6 of Awad et al. (2021), using Cross and Carreau models for 2, 3, 4 and 5 mm particles. The owner reports using ANSYS Fluent and OpenFOAM; the supplied comparison values were confirmed to be ANSYS Fluent results.
+- **Public validation figure:** [Fluent comparison plot](https://meherabhossen.pages.dev/assets/img/particle-settling-pac05.png) and [methods and results](https://meherabhossen.pages.dev/#research-particle-settling).
+- **Error definition:** Absolute relative deviation from the corresponding published CFD model prediction, calculated pointwise as `abs(v_Fluent - v_reference) / abs(v_reference) * 100`. The maximum is taken separately over the four particle sizes for each rheology model.
+- **Maximum deviations:** Cross 4.56%; Carreau 10.26%. These values compare the Fluent data with published CFD predictions. The experimental data are also plotted for context.
+- **Reference:** A. M. Awad, I. A. Hussein, M. S. Nasser, H. Karami, R. Ahmed. "CFD modeling of particle settling in drilling fluids: Impact of fluid rheology and particle characteristics." *Journal of Petroleum Science and Engineering* 199 (2021), 108326. [DOI](https://doi.org/10.1016/j.petrol.2020.108326).
+
 ## Manuscripts and submission status
 
 Statuses below follow information supplied by the author in November 2026. Conference abstracts are accepted and full papers are under review. Proceedings details and DOIs are not listed for these manuscripts.
