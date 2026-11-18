@@ -1,3 +1,10 @@
+# Academic results update - 18 November 2026
+
+- Updated overall CGPA to 3.133/4.00.
+- Added major CGPA of 3.356/4.00 for the 3rd and 4th years.
+- Updated the Education page, homepage education entry, CV PDF and both resume previews.
+- Preserved the two-page CV and all existing hyperlinks.
+
 # Particle-settling validation - 10 November 2026
 
 - Added the 0.5% PAC Cross/Carreau benchmark to the research page and the two-page general CV.

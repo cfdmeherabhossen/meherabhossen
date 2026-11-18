@@ -1,7 +1,7 @@
 # Meherab Hossen portfolio
 
 Static portfolio for https://meherabhossen.pages.dev/.
-Updated 10 November 2026. No installation or build step is needed for the website.
+Updated 18 November 2026. No installation or build step is needed for the website.
 
 ## Preview
 
