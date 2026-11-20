@@ -1,7 +1,7 @@
 # Meherab Hossen portfolio
 
 Static portfolio for https://meherabhossen.pages.dev/.
-Updated 18 November 2026. No installation or build step is needed for the website.
+Updated 20 November 2026. No installation or build step is needed for the website.
 
 ## Preview
 
@@ -52,18 +52,21 @@ The Alnakeeb animation is a web-optimized copy of the owner-supplied
 PCM_melting_10s.mp4, with the same frames, timing and 1920×1080 resolution,
 playback controls and a poster frame from the supplied video.
 The caption credits the animation to Md. Meherab Hossen, as confirmed by the owner.
-The Al Siyabi media subsection stays hidden until its real media files are configured.
-Media filenames:
+The Al Siyabi subsection displays the supplied PCM melting animation and the updated
+Fluent/OpenFOAM 14 liquid-fraction comparison. The reference curve is labeled
+extrapolated; its source is the numerical mesh-independence plot in Figure 4 of
+Al Siyabi et al. (2019). See the research section for the comparison scope.
 
-- Alnakeeb: assets/img/sl_opi_1.png and assets/videos/sl_opi_1.mp4
-- Al Siyabi: assets/img/sl_opi_2.png and assets/videos/sl_opi_2.mp4
+Media files:
 
-Set the matching image/video values in assets/js/pcm-media.js once the files exist.
-JPG image extensions also work when configured. Empty entries hide their media
-subsection and load no missing files. The two droplet-video cards are also present
-in index.html so HTML readers can discover them without executing JavaScript.
-Keep those initial cards aligned with PORTFOLIO_VIDEOS when changing the video list.
+- Alnakeeb: `assets/img/sl_opi_1.png` and `assets/videos/sl_opi_1.mp4`.
+- Al Siyabi graph: `assets/img/siyabi-liquid-fraction.svg`, with `assets/img/k1.png` as the displayed raster copy.
+- Al Siyabi animation: `assets/videos/siyabi-pcm-melting.mp4`, with `assets/img/siyabi-melting-poster.jpg` as its poster.
 
+The video list is configured in `index.html`; PCM media is configured in
+`assets/js/pcm-media.js`. The Al Siyabi animation also appears directly in the
+HTML, and the PCM renderer preserves existing media without duplicating it.
+Keep the initial Videos cards aligned with `PORTFOLIO_VIDEOS` when changing the list.
 
 ## Research evidence
 

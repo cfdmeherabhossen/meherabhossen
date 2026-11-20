@@ -11,6 +11,14 @@ This index connects the CV to public validation figures, methods, and videos. Th
 - **Analysis:** The separate solid-solid fin-design study compared five fin angles and orientations; the author-supplied CV reports a 79.3% charging-time reduction for its best configuration against the unfinned baseline. This value is not assigned to the alphabet-shaped solid-liquid fin study.
 - **Visualization:** [PCM melting animation](https://meherabhossen.pages.dev/#pcm-animation-alnakeeb).
 
+### Axisymmetric PCM melting: Al Siyabi benchmark
+
+- **Contribution:** Configured the transient 2D axisymmetric Fluent model with solidification/melting and the Boussinesq approximation; compared the liquid-fraction history with OpenFOAM 14 and the supplied extrapolated reference curve.
+- **Updated comparison:** [Vector plot](https://cfdmeherabhossen.github.io/meherabhossen/assets/img/siyabi-liquid-fraction.svg), [PNG plot](https://cfdmeherabhossen.github.io/meherabhossen/assets/img/k1.png?v=20261120), and [research context](https://cfdmeherabhossen.github.io/meherabhossen/#research-pcm-additional).
+- **Animation:** [Melt-front evolution](https://cfdmeherabhossen.github.io/meherabhossen/#pcm-animation-siyabi). The supplied recording shows liquid fraction from 0 (solid) to 1 (liquid), with simulation-time labels.
+- **Scope:** Figure 4 of the reference is a numerical mesh-independence study for RT35 with a 60 °C HTF inlet and 120 mL/min flow. The supplied plot labels the reference curve as extrapolated. It is not described as an experimental liquid-fraction dataset, and no new error percentage is claimed.
+- **Reference:** I. Al Siyabi, S. Khanna, T. Mallick, S. Sundaram. "An experimental and numerical study on the effect of inclination angle of phase change materials thermal energy storage system." *Journal of Energy Storage* 23 (2019), 57–68. [DOI](https://doi.org/10.1016/j.est.2019.03.010).
+
 ## Droplet dynamics
 
 - **Solver setup and analysis:** VOF models in ANSYS Fluent and OpenFOAM; evaluation of droplet spreading, deformation, and Weber-number effects.

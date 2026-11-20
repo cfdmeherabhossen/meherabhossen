@@ -42,7 +42,7 @@
 .validation-study h3{font-size:1.15rem;margin-bottom:.75rem}
 .validation-study .film__box.is-missing{min-height:10rem}
 </style>
-<link href="assets/css/refinements.css" rel="stylesheet"/></head>
+<link href="assets/css/refinements.css?v=20261120" rel="stylesheet"/></head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <!-- ============ MOBILE TOP BAR ============ -->
@@ -259,28 +259,31 @@
 </section>
 <section aria-labelledby="droplet-contours-heading" class="droplet-contours" id="droplet-impact-contours"><p class="work__spec">Additional simulation visualization · Impact &amp; spreading</p><h3 id="droplet-contours-heading">Droplet impact contours</h3><p>Selected frames from my droplet-impact simulation show the evolving water–air interface during impact and spreading. The colour scale represents water volume fraction, <em>alpha.water</em>: blue indicates 0 and red indicates 1.</p><div class="contour-gallery"><figure><a href="assets/img/droplet-impact-0000.png" rel="noopener" target="_blank"><img alt="Water-volume-fraction contour of droplet impact, exported frame 0000" decoding="async" height="1080" loading="lazy" src="assets/img/droplet-impact-0000.png" width="1920"/></a><figcaption>Frame 0000 · <a href="assets/img/droplet-impact-0000.png" rel="noopener" target="_blank">Open full-size contour ↗</a></figcaption></figure><figure><a href="assets/img/droplet-impact-0028.png" rel="noopener" target="_blank"><img alt="Water-volume-fraction contour of droplet impact, exported frame 0028" decoding="async" height="1080" loading="lazy" src="assets/img/droplet-impact-0028.png" width="1920"/></a><figcaption>Frame 0028 · <a href="assets/img/droplet-impact-0028.png" rel="noopener" target="_blank">Open full-size contour ↗</a></figcaption></figure><figure><a href="assets/img/droplet-impact-0056.png" rel="noopener" target="_blank"><img alt="Water-volume-fraction contour of droplet impact, exported frame 0056" decoding="async" height="1080" loading="lazy" src="assets/img/droplet-impact-0056.png" width="1920"/></a><figcaption>Frame 0056 · <a href="assets/img/droplet-impact-0056.png" rel="noopener" target="_blank">Open full-size contour ↗</a></figcaption></figure><figure><a href="assets/img/droplet-impact-0084.png" rel="noopener" target="_blank"><img alt="Water-volume-fraction contour of droplet impact, exported frame 0084" decoding="async" height="1080" loading="lazy" src="assets/img/droplet-impact-0084.png" width="1920"/></a><figcaption>Frame 0084 · <a href="assets/img/droplet-impact-0084.png" rel="noopener" target="_blank">Open full-size contour ↗</a></figcaption></figure></div><p class="contour-note">Frame numbers follow the supplied export sequence; no physical time interval is assigned. These images show fluid-interface evolution during impact.</p></section><a class="btn btn--solid" data-page="videos" href="#videos">Watch the droplet simulation videos →</a></article>
 <article class="work" id="research-pcm-additional">
-<p class="work__spec">Thermal energy storage · Numerical validation</p>
-<h2>Axisymmetric PCM melting: validation against Al Siyabi et al.</h2>
-<p><strong>Research focus:</strong> Establishing an axisymmetric melting benchmark for subsequent investigation of inclination-angle effects in PCM thermal storage.</p>
+<p class="work__spec">Thermal energy storage · Phase change · Fluent &amp; OpenFOAM</p>
+<h2>Axisymmetric PCM melting in cylindrical thermal storage</h2>
+<p>I modeled solid–liquid PCM melting in a cylindrical thermal storage system and compared the predicted melting history with the study by Al Siyabi et al. <a href="#ref-7">[7]</a>. This work focuses on how heat transfer and buoyancy-driven flow shape the melting process, and provides an axisymmetric benchmark for further study of PCM thermal storage.</p>
 <ul class="ticks">
-<li><strong>Approach:</strong> Transient CFD simulation using a
-      2D axisymmetric domain, the solidification and melting model,
-      and the Boussinesq approximation in ANSYS Fluent.</li>
-<li><strong>Benchmark comparison:</strong> Comparison of the
-      volume-averaged PCM liquid fraction over time with Figure 4
-      of Al Siyabi et al. <a href="#ref-7">[7]</a>.</li>
-<li><strong>Current results:</strong> The available simulation
-      results show a similar melting trend to the published curve.
-      Assessment of the complete melting history and numerical
-      sensitivity remains ongoing.</li>
+<li><strong>Model development:</strong> Configured a transient, 2D axisymmetric model in ANSYS Fluent using the solidification and melting model and the Boussinesq approximation.</li>
+<li><strong>Solver comparison:</strong> Compared volume-averaged liquid fraction over time from ANSYS Fluent and OpenFOAM 14 with the Al Siyabi reference curve. The updated plot shows the progression from solid PCM toward complete melting.</li>
+<li><strong>Reference case:</strong> Figure 4 of the published study presents a mesh-independence comparison for RT35 paraffin at a heat-transfer-fluid inlet temperature of 60 °C and a flow rate of 120 mL/min. The paper also examines how storage inclination affects melting and natural convection.</li>
 </ul>
-<figure class="film research-figure">
-<a aria-label="Open full-size liquid fraction validation plot" class="film__box" href="assets/img/k1.png" rel="noopener" target="_blank">
-<img alt="Liquid fraction against time, present study compared with I. Al Siyabi et al." decoding="async" loading="lazy" src="assets/img/k1.png"/>
+<figure class="film research-figure siyabi-comparison">
+<a aria-label="Open the full-size Fluent and OpenFOAM PCM melting comparison" class="film__box" href="assets/img/siyabi-liquid-fraction.svg" rel="noopener" target="_blank">
+<img alt="Liquid fraction versus time in seconds: Al Siyabi et al. extrapolated reference, present ANSYS Fluent work, and OpenFOAM 14 results" decoding="async" loading="lazy" width="1533" height="1047" src="assets/img/k1.png?v=20261120"/>
 </a>
-<figcaption>Figure 5. Liquid-fraction evolution compared with I. Al Siyabi et al. <a href="#ref-7">[7]</a>. Select the plot to inspect it at full size.</figcaption>
+<figcaption>Liquid-fraction evolution: ANSYS Fluent and OpenFOAM 14 compared with the reference labeled “Al Siyabi et al. (extrapolated).” Time is shown in seconds. <a href="assets/img/siyabi-liquid-fraction.svg" rel="noopener" target="_blank">Open the vector graph</a>.</figcaption>
 </figure>
-<section aria-labelledby="pcm-contours-siyabi-heading" class="pcm-media" data-pcm-study="siyabi" hidden id="pcm-contours-siyabi"><h3 id="pcm-contours-siyabi-heading">Contours &amp; animation</h3><div class="pcm-media__grid"></div></section></article>
+<p class="evidence-note"><strong>Comparison scope:</strong> The reference curve in the supplied plot is extrapolated from the published study; Figure 4 is a numerical mesh-independence study, rather than an experimental liquid-fraction dataset. The plot supports a comparison of melting trends; no numerical error percentage is assigned here.</p>
+<section aria-labelledby="pcm-contours-siyabi-heading" class="pcm-media" data-pcm-study="siyabi" id="pcm-contours-siyabi">
+<h3 id="pcm-contours-siyabi-heading">Melt-front evolution</h3>
+<div class="pcm-media__grid">
+<figure id="pcm-animation-siyabi">
+<video controls playsinline preload="none" width="1104" height="772" poster="assets/img/siyabi-melting-poster.jpg" src="assets/videos/siyabi-pcm-melting.mp4" aria-label="PCM liquid-fraction animation for the Al Siyabi benchmark"><a href="assets/videos/siyabi-pcm-melting.mp4">Open the PCM melting animation</a></video>
+<figcaption>My simulation recording shows the evolving liquid-fraction field: 0 (blue) denotes solid PCM and 1 (red) denotes liquid PCM. The displayed simulation time and color scale are retained. <a href="assets/videos/siyabi-pcm-melting.mp4">Open the animation</a>.</figcaption>
+</figure>
+</div>
+</section>
+</article>
 <article class="work" id="research-particle-settling">
 <p class="work__spec">Non-Newtonian flow · Particle settling · ANSYS Fluent &amp; OpenFOAM</p>
 <h2>Particle settling in non-Newtonian drilling fluids</h2>
@@ -364,6 +367,7 @@
 <div class="video-grid" id="video-gallery">
 <article class="video-card"><div class="video-frame"><video controls playsinline preload="none" src="assets/videos/meherab.MP4" poster="assets/img/droplet-pair-poster.jpg" aria-label="Droplet-pair impact: validation against reference [5]"><a href="assets/videos/meherab.MP4">Open the simulation video</a></video></div><div class="video-card__body"><h2>Droplet-pair impact: validation against reference [5]</h2><p>This video presents my numerical validation work based on Simultaneous impact of droplet pairs on solid surfaces by A. Goswami and Y. Hardalupas (2023), listed as reference [5]. The study serves as the benchmark for comparing droplet-impact behaviour in my simulation.</p><a class="doclink" href="#ref-5">View reference [5]</a></div></article>
 <article class="video-card"><div class="video-frame"><video controls playsinline preload="none" src="assets/videos/meherab1.mp4" poster="assets/img/falling-droplet-poster.jpg" aria-label="Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision [4]"><a href="assets/videos/meherab1.mp4">Open the simulation video</a></video></div><div class="video-card__body"><h2>Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision [4]</h2><p>This video presents my numerical validation work based on Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision by A. H. Rafi, M. R. Haque, and D. H. Ahmed (2022), listed as reference [4]. The study serves as a benchmark for examining droplet deformation and collision behaviour in my simulation.</p><a class="doclink" href="#ref-4">View reference [4]</a></div></article>
+<article class="video-card"><div class="video-frame"><video controls playsinline preload="none" src="assets/videos/siyabi-pcm-melting.mp4" poster="assets/img/siyabi-melting-poster.jpg" aria-label="PCM melting: Al Siyabi benchmark"><a href="assets/videos/siyabi-pcm-melting.mp4">Open the PCM melting animation</a></video></div><div class="video-card__body"><h2>PCM melting: Al Siyabi benchmark</h2><p>My simulation recording shows the melt-front evolution in a cylindrical PCM thermal storage case based on Al Siyabi et al. (2019). Blue denotes solid PCM and red denotes liquid PCM. The liquid-fraction color scale and simulation-time labels are retained. See the research section for the Fluent/OpenFOAM comparison and its scope.</p><a class="doclink" href="#research-pcm-additional">View the graph and research context</a><a class="doclink" href="#ref-7">View reference [7]</a></div></article>
 </div>
 </div>
 </section>
@@ -552,6 +556,14 @@ window.PORTFOLIO_VIDEOS = [
     "poster": "assets/img/falling-droplet-poster.jpg",
     "description": "This video presents my numerical validation work based on Two-dimensional analogies to the deformation characteristics of a falling droplet and its collision by A. H. Rafi, M. R. Haque, and D. H. Ahmed (2022), listed as reference [4]. The study serves as a benchmark for examining droplet deformation and collision behaviour in my simulation.",
     "reference": "ref-4"
+  },
+  {
+    "type": "mp4",
+    "title": "PCM melting: Al Siyabi benchmark",
+    "src": "assets/videos/siyabi-pcm-melting.mp4",
+    "poster": "assets/img/siyabi-melting-poster.jpg",
+    "description": "My simulation recording shows the melt-front evolution in a cylindrical PCM thermal storage case based on Al Siyabi et al. (2019). Blue denotes solid PCM and red denotes liquid PCM. The liquid-fraction color scale and simulation-time labels are retained. See the research section for the Fluent/OpenFOAM comparison and its scope.",
+    "reference": "ref-7"
   }
 ];
 </script>
@@ -692,6 +704,6 @@ window.PORTFOLIO_VIDEOS = [
 })();
 
 </script>
-<script src="assets/js/pcm-media.js"></script><script src="assets/js/main.js"></script>
+<script src="assets/js/pcm-media.js?v=20261120"></script><script src="assets/js/main.js"></script>
 </body>
 </html>

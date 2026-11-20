@@ -1,3 +1,10 @@
+# Al Siyabi research media update — 20 November 2026
+
+- Replaced the previous liquid-fraction graph with the supplied Fluent/OpenFOAM 14 comparison and added a full-size SVG link.
+- Added the supplied PCM melting animation to the research section and Videos page, with playback controls, a poster, and a direct MP4 link.
+- Rewrote the research context using the supplied Al Siyabi paper and distinguished the extrapolated reference curve from experimental measurements.
+- Added source notes and evidence links. Preserved the current CV, resume previews, academic results, theme, and other research sections.
+
 # Academic results update - 18 November 2026
 
 - Updated overall CGPA to 3.133/4.00.

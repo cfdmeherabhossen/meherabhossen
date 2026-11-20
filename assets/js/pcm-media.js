@@ -1,7 +1,4 @@
-/* Alnakeeb image and animation supplied; add Al Siyabi media when available.
-   Alnakeeb: assets/img/sl_opi_1.png and assets/videos/sl_opi_1.mp4
-   Al Siyabi: assets/img/sl_opi_2.png and assets/videos/sl_opi_2.mp4
-   Keep empty values until the real files exist; no placeholder results are generated. */
+/* Owner-supplied PCM media. Empty entries hide their subsection. */
 window.PORTFOLIO_PCM_MEDIA = window.PORTFOLIO_PCM_MEDIA || {
   alnakeeb: {
     image: 'assets/img/sl_opi_1.png',
@@ -11,7 +8,12 @@ window.PORTFOLIO_PCM_MEDIA = window.PORTFOLIO_PCM_MEDIA || {
     alt: 'Alnakeeb PCM melting montage at 2.5, 5, 10, 15, 25 and 35 minutes; melt front and flow on the left of each panel, temperature on the right',
     caption: 'Melt-front evolution at 2.5, 5, 10, 15, 25 and 35 min. Each panel shows melt and flow on the left and temperature on the right. Velocity is in mm/s and temperature in K; liquid-fraction values are labelled in the image.'
   },
-  siyabi: { image: '', video: '' }
+  siyabi: {
+    image: '',
+    video: 'assets/videos/siyabi-pcm-melting.mp4',
+    poster: 'assets/img/siyabi-melting-poster.jpg',
+    videoCaption: 'PCM liquid-fraction evolution for the Al Siyabi benchmark. Blue is solid (0); red is liquid (1). Simulation recording by Md. Meherab Hossen.'
+  }
 };
 (function () {
   'use strict';
@@ -21,6 +23,7 @@ window.PORTFOLIO_PCM_MEDIA = window.PORTFOLIO_PCM_MEDIA || {
     if (!item || (!item.image && !item.video)) { section.hidden = true; return; }
     section.hidden = false;
     var grid = section.querySelector('.pcm-media__grid');
+    if (grid.childElementCount) return; // Preserve media already available in the HTML.
     var study = key === 'alnakeeb' ? 'Alnakeeb et al.' : 'Al Siyabi et al.';
     if (item.image) {
       var figure = document.createElement('figure');

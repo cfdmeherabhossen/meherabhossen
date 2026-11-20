@@ -32,3 +32,12 @@ the website copy retains the supplied content and embedded text.
 ## particle-settling-pac05.png
 
 Plot generated from the owner-supplied 0.5% PAC comparison data. Present-study values: Md. Meherab Hossen, ANSYS Fluent (confirmed by the owner). Reference CFD and experimental comparison values: Awad et al., *Journal of Petroleum Science and Engineering* 199 (2021), 108326, Figure 6, https://doi.org/10.1016/j.petrol.2020.108326. The reference article is published under CC BY. The plot covers Cross and Carreau models at particle diameters 2, 3, 4 and 5 mm.
+
+
+## Al Siyabi comparison and animation — 20 November 2026
+
+- `siyabi-liquid-fraction.svg` is the owner-supplied vector graph, retained without changing its curves, labels, or numerical values. `k1.png` is a raster rendering of that graph, replacing the earlier comparison image.
+- The graph compares ANSYS Fluent and OpenFOAM 14 with a curve labeled "Al Siyabi et al. (extrapolated)." Reference: Al Siyabi et al., *Journal of Energy Storage* 23 (2019), 57–68, Figure 4, https://doi.org/10.1016/j.est.2019.03.010. Figure 4 is a numerical mesh-independence study, not experimental liquid-fraction measurements.
+- `assets/videos/siyabi-pcm-melting.mp4` is a silent, H.264 web copy of the owner's supplied screen recording. An 8-pixel left/top margin and the unused outer screen border were cropped; simulation fields, time labels, and color scale are retained. Playback duration and 30 fps frame rate are preserved. Audio and recording metadata were removed from the website copy. The original recording remains on the owner's computer.
+- `siyabi-melting-poster.jpg` is the frame at 8 seconds of the web video.
+- The supplied research paper was used for context and citation; the paper PDF is not republished here.

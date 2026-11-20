@@ -125,3 +125,10 @@
 [data-pcm-study="alnakeeb"] .pcm-media__grid { grid-template-columns: minmax(0,1fr); }
 [data-pcm-study="alnakeeb"] .pcm-media__grid img { display: block; height: auto; max-height: none; }
 [data-pcm-study="alnakeeb"] .pcm-media__grid video { display: block; height: auto; max-height: none; aspect-ratio: 16/9; }
+
+/* Keep the supplied comparison and the single Siyabi animation readable. */
+.siyabi-comparison { max-width: 850px; }
+.siyabi-comparison img { display: block; width: 100%; height: auto; max-height: none; }
+[data-pcm-study="siyabi"] .pcm-media__grid { grid-template-columns: minmax(0, 1fr); max-width: 850px; }
+[data-pcm-study="siyabi"] .pcm-media__grid video { display: block; height: auto; max-height: none; background: #fff; }
+[data-pcm-study="siyabi"] .pcm-media__grid figcaption { font-size: .92rem; }
